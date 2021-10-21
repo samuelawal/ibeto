@@ -1,0 +1,101 @@
+@media screen and (max-width: 700px){
+    .slideshow-container{
+       height: 500px;
+    }
+   
+    .text h2{
+        font-size: 4rem;
+        top: 30%;
+    }
+    .button{
+        margin-top: 40px;
+        left: 36%
+    }
+    .folder{
+        height: 340px;
+    }
+    .folder-text{
+        padding: 30px
+    }
+}
+@media screen and (max-width: 600px){
+    #intro{
+        font-size: 2.4rem ;
+    }
+    .folder-text p{
+        font-size: 1.7rem;
+        line-height: 2.1;
+    }
+    .ratings{
+        font-size: 60px;
+    }
+@media screen and (max-width: 376px){
+    nav ul{
+        margin :0 !important;
+    }
+    .slideshow-container{
+        height: 350px;
+    }
+    #intro{
+        font-size: 2.1rem ;
+    }
+    .text{
+        margin-left: 35px;
+        top: 30%;
+    }
+    .text h2{
+        font-size: 2.6rem;
+    }
+    .button .btn{
+        width: 100px;
+        letter-spacing: 0;
+        height: 35px;
+        
+    }
+    .button{
+       
+       top: 50%;
+    }
+    .folder{
+        height: 230px;
+        top: -10px;
+    }
+    .folder-text{
+        padding: 20px;
+    }
+    .folder-text h3{
+        font-size: 2.1rem;
+    }
+    .folder-text h2{
+        font-size: 1.8rem;
+    }
+    .folder-text p{
+        line-height: 2;
+        font-size: 1rem;
+    }
+.menHands img{
+    display: block;
+    height: 250px;
+}
+@keyframes scroll{
+    
+    100%{
+        transform: translateX(calc(-440px * 6.2));
+    }
+}
+#container-header{
+    font-size: 28px !important;
+}
+.ratings{
+    font-size: 50px;
+}
+ blockquote q i {
+    text-align: justify !important;
+}
+.contact-information{
+    margin: 80px 0 0 0;
+}
+.contact-info-card{
+    width: 95% !important;
+}
+}
