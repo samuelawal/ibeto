@@ -17,6 +17,9 @@
     .folder-text{
         padding: 30px
     }
+    .board-details{
+        width: 100%!important;
+    }
 }
 @media screen and (max-width: 600px){
     #intro{
@@ -29,6 +32,7 @@
     .ratings{
         font-size: 60px;
     }
+    
 @media screen and (max-width: 376px){
     nav ul{
         margin :0 !important;
@@ -97,5 +101,6 @@
 }
 .contact-info-card{
     width: 95% !important;
+}
 }
 }

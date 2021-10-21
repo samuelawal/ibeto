@@ -187,7 +187,7 @@ ul li a:hover{
 }
 .folder-text p{
     font-size: 2rem;
-    line-height: 40px;
+    
 }
 
 .text-column{
@@ -272,7 +272,7 @@ ul li a:hover{
     color: #800000;
 }
 .slide-text p{
-    text-align: justify;
+    text-align: left;
     margin: 7px 10px !important;
     
     font-weight: 550;
@@ -562,7 +562,7 @@ color:#800000
 }
 .board-details-intro{
     position: absolute;
-    text-align: justify;
+    text-align: left;
    padding: 15px;
    
     left: 0;
@@ -570,7 +570,7 @@ color:#800000
     
 }
 .board-details-intro p{
-    text-align: justify;
+    text-align: left;
     line-height: 1.5;
 }
 .board-button{
@@ -589,13 +589,11 @@ color:#800000
     font-weight: 600;
 }
 
-@media screen and (max-width: 1335px){
-    .board-details{
-        width: 500px;
-    }
-}
+
+
 @media screen and (max-width: 900px){
     .board-details{
+       width: 100%!important;
         margin-right: auto;
         margin-left: auto;
     }
@@ -622,9 +620,7 @@ color:#800000
     position: relative;
     
 }
-.ibeto-main-about{
-    max-width: 80%;
-}
+
 .about-ibeto-intro{
     font-size: 20px;
     text-align: left;
@@ -638,7 +634,7 @@ color:#800000
     background-color: #800000;
 }
 #ibeto-about-image{
-    /* width: 447px; */
+    max-width: 447px;
     height: 419px;
     position: relative;
     overflow: hidden;
@@ -659,7 +655,7 @@ color:#800000
 }
 #about-section2, ul, li{
     line-height: 1.8;
-    text-align: justify;
+    text-align: left;
 } 
 #about-section2, ul{
     list-style-type: square;
@@ -758,13 +754,19 @@ color:#800000
 #butn{
     background-color: #800000 ;
     width: 100%;
-    font-size: 20px;
+    font-size: 2rem;
     padding: 10px;
     border: none;
     text-transform: uppercase;
     letter-spacing: 5px;
     border-radius: 5px;
     margin-top: 20px;
+}
+@media screen and (max-width: 430px){
+    #butn{
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
 }
 .office-holder{
     margin-bottom: 50px;
@@ -831,7 +833,7 @@ color:#800000
  }
 @media screen and (max-width: 970px){
     .panel .panel-body p{
-        text-align: justify;
+        text-align: left;
         word-break: normal;
     }
 }
