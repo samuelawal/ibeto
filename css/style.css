@@ -13,9 +13,14 @@ body{
 nav{
     position: fixed;
 }
+.container-img img{
+    position: absolute;
+    
+}
  #nav-bar{
     background-color: #800000;
-    padding: 5px;
+    padding: 9px;
+    
     position: fixed;
     top: 0;
     width: 100%;
@@ -68,6 +73,9 @@ nav ul li{
     border-bottom: 2px solid #ff0000;
     width: 100%;
     text-align: center;
+}
+nav ul li:last-child {
+    border-bottom: none;
 }
 ul li a:hover{
     border: none;
@@ -495,6 +503,11 @@ color:#800000
     padding: 30px;
     transition-duration: 3s linear;
   }
+  @media screen and (max-width: 1000px){
+.side-nav{
+    width: 50%!important;
+}
+  }
   .side-list{
       margin-top: 30px;
   }
@@ -589,9 +602,15 @@ color:#800000
     font-weight: 600;
 }
 
+@media screen and (max-width: 1200px){
+    .board-details{
+        width: 500px!important;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+}
 
-
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1025px){
     .board-details{
        width: 100%!important;
         margin-right: auto;
@@ -725,6 +744,8 @@ color:#800000
 @media screen and (max-width: 900px){
     .contact-info-card{
         width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .contact-info-card:hover{
