@@ -21,6 +21,7 @@
     .board-details{
         width: 100%!important;
     }
+    
 }
 @media screen and (max-width: 600px){
     #intro{
@@ -33,7 +34,7 @@
     .ratings{
         font-size: 60px;
     }
-    
+
 @media screen and (max-width: 480px){
     nav ul{
         margin :0 !important;
@@ -78,6 +79,11 @@
         line-height: 2;
         font-size: 1rem;
     }
+    .side-nav{
+        width: 100% !important;
+        height: 50%;
+    }
+    
 .menHands img{
     display: block;
     height: 250px;
@@ -102,6 +108,17 @@
 }
 .contact-info-card{
     width: 95% !important;
+}
+.row.social-details{
+    padding: 35px;
+    margin: auto;
+}
+.row.social-details h2{
+    font-size: 30px;
+    text-align: center;
+}
+.social-icons{
+    font-size: 18px;
 }
 }
 }

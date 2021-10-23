@@ -508,6 +508,7 @@ color:#800000
     width: 50%!important;
 }
   }
+  
   .side-list{
       margin-top: 30px;
   }
@@ -747,10 +748,49 @@ color:#800000
         margin-left: auto;
         margin-right: auto;
     }
+    .phoneMock-container img{
+        width: 100%;
+    }
+    
 }
+
 .contact-info-card:hover{
     background-color: #800000cc;
 }
+
+.social-media-contact{
+    width: 100%;
+    margin-top: 100px;
+   background-color: rgba(128, 128, 128, 0.308);
+    position: relative;
+    font-family: 'Balsamiq Sans';
+}
+.row.social-details {
+    padding: 70px;
+}
+.phoneMock-writeup{
+    width: 100%;
+
+}
+.social-icons{
+    margin-top: 30px;
+    font-size: 20px;
+    color: grey;
+}
+.social-icons i {
+    color: #800000;
+    line-height: 1.5;
+}
+.phoneMock-writeup h2{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #800000;
+    margin-top: 50px    ;
+}
+.phoneMock-writeup p{
+    font-size: 20px;
+}
+
 .container{
     margin-top: 100px;
     font-family: 'Balsamiq Sans';
