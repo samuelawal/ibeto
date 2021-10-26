@@ -81,7 +81,10 @@
     }
     .side-nav{
         width: 100% !important;
-        height: 50%;
+        height: 40%;
+    }
+    .side-logo{
+        display: none;
     }
     
 .menHands img{

@@ -94,6 +94,9 @@ ul li a:hover{
 }
 
 }
+#indexIntro{
+    scroll-margin: 200px;
+}
  .slideshow-container{
     position: relative;
    width: 100%;
@@ -220,7 +223,7 @@ ul li a:hover{
     display: grid;
      place-items: center;
     overflow: hidden;
- 
+
 }
 .slide-track{
     display: flex;
@@ -261,8 +264,6 @@ ul li a:hover{
 .slide:hover{
     transform: scale(.9);
 }
-
-
 
 
 
@@ -328,6 +329,9 @@ footer{
     font-family: 'Balsamiq Sans';
     margin-top: 30px;
     padding: 20px;
+}
+ form button{
+    background-color: #800000;
 }
 .locate{
     color: white;
@@ -508,7 +512,7 @@ color:#800000
     width: 50%!important;
 }
   }
-  
+
   .side-list{
       margin-top: 30px;
   }
@@ -526,7 +530,8 @@ color:#800000
   .side-title  {
      position: absolute;
     color: white ;
-    text-align: left;
+    bottom: 10px;
+   
  }
  #side-cancel{
      color:white;
@@ -790,12 +795,62 @@ color:#800000
 .phoneMock-writeup p{
     font-size: 20px;
 }
-
+.embedded-link{
+    margin-top: 30px;
+}
+.embedded-link a{
+    color: #800000;
+   
+}
+.embedded-link button{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+.embedded-link button:hover{
+    background-color: #800000;
+    color: #ffffff;
+}
 .container{
     margin-top: 100px;
     font-family: 'Balsamiq Sans';
     font-size: 20px;
    
+}
+#formgroup{
+    scroll-margin: -100px;
+}
+.form-group{
+    position: relative;
+    padding-bottom: 20px;
+}
+.form-group i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+.form-group.success i.fa-check-circle{
+    color: #2ecc71;
+    visibility: visible;
+}
+.form-group.error i.fa-exclamation-circle{
+    color: #e74c3c;
+    visibility: visible;
+}
+    
+.form-group.success input{
+    border-color: #2ecc71;
+}
+.form-group small{
+    color: #e74c3c;
+    display: none;
+}
+.form-group.error input {
+    border-color: #e74c3c;;
+}
+.form-group.error small{
+    display: block;
 }
 .container-info-form{
     background-color: #9695950c;
@@ -812,7 +867,7 @@ color:#800000
     font-size: 15px;
     
 }
-#butn{
+ #butn {
     background-color: #800000 ;
     width: 100%;
     font-size: 2rem;
@@ -841,6 +896,7 @@ color:#800000
 .office-holder p:last-child{
     color: grey;
 }
+
 .container-info-form2{
     margin-bottom: 30px;
     border: 1px solid #800000;
